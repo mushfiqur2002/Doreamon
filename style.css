@@ -506,6 +506,7 @@ body{
     justify-content: center;
     align-items: center;
     display: flex;
+    overflow: hidden;
 }
 #contact .content{
     width: 95%;
@@ -515,6 +516,7 @@ body{
     display: flex;
     flex-direction: column;
     position: relative;
+    overflow: hidden;
 }
 #contact .content .title{
     width: 100%;
