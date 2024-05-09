@@ -35,7 +35,6 @@ body{
     
 }
 
-#nav_bar,
 #home,
 #history,
 #hero,
@@ -49,6 +48,7 @@ body{
 
 /********### NAV_BAR ###********/
 #nav_bar{
+    width: 100%;
     height: var(--navBar-height);
     background: var(--navBar-bg-color);
     justify-content: space-between;
@@ -465,10 +465,12 @@ body{
 
 #hero .content .container .list{
     width: 100%;
-    height: 100px;
+    height: auto;
+    padding:15px,10px;
     justify-content: center;
     align-items: center;
     display: flex;
+    flex-warp: warp;
 }
 #hero .content .container .list ul{
     width: 100%;
