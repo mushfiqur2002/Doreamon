@@ -397,6 +397,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 5px;
+    flex-wrap: wrap;
 }
 #hero .content .container .list_box .box .text_segment ul li{
     width: 100%;
